@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-headings {
+    margin-left: 840px;
+
+    margin-right: 230px;
+    text-align: right;
+    position: absolute;
+
+}
+
+.banner-title {
+    margin-top: 220px;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.banner-description {
+    margin-top: 24px;
+    color: #444343;
+}
+
+.btn-primary {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color:#F15B22;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
