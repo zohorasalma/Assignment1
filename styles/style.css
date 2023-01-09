@@ -32,9 +32,84 @@
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
-    background-color:#F15B22;
+    background-color: #F15B22;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
 
+}
+
+/* failure section styles */
+.sec-failure {
+    display: flex;
+    align-items: center;
+
+}
+
+.person-img {
+    margin-top: 140px;
+    margin-left: 200px;
+
+    border-radius: 50%;
+    width: 570px;
+    height: 700px;
+}
+
+.failure-description {
+    margin-right: 320px;
+    margin-left: 90px;
+}
+
+.sec-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sec-description {
+    color: #444343;
+    margin-top: 24px;
+}
+
+.sec-list {
+    margin-top: 16px;
+    list-style: none;
+    margin-left: -40px;
+
+}
+
+.sec-list>li::before {
+    content: '✓';
+    color: green;
+    margin-right: 10px;
+
+
+}
+
+/* plan section */
+.sec-plan {
+    text-align: center;
+    margin: 130px 230px;
+}
+
+.plan-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+
+}
+
+.plan-title {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-description {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
