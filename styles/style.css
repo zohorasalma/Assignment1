@@ -1,16 +1,19 @@
 * {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .banner {
     display: flex;
 }
+.banner-img{
+    transform: scalex(-1);
 
+}
 .banner-headings {
-    margin-left: 840px;
-
-    margin-right: 230px;
-    text-align: right;
+    margin-right: 840px;
+    margin-left: 230px;
+    text-align: left;
     position: absolute;
 
 }
@@ -38,6 +41,33 @@
     border-radius: 5px;
 
 }
+/* about me section */
+.sec-about{
+    display: flex;
+    align-items: center;
+
+
+}
+.about-description{
+    margin-top: 140px;
+    margin-left: 320px;
+
+
+}
+.my-img{
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 140px;
+}
+.sec-list-about{
+    list-style:disc;
+    margin-left: -20px;
+}
+.sec-about h4{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 
 /* failure section styles */
 .sec-failure {
@@ -45,6 +75,7 @@
     align-items: center;
 
 }
+
 
 .person-img {
     margin-top: 140px;
@@ -56,6 +87,7 @@
 }
 
 .failure-description {
+    margin-top: 350px;
     margin-right: 320px;
     margin-left: 90px;
 }
@@ -81,7 +113,7 @@
 
 .sec-list>li::before {
     content: '✓';
-    color: green;
+    color: lightgreen;
     margin-right: 10px;
 
 
@@ -112,4 +144,100 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* call section */
+.sec-call {
+    margin: 130px 230px;
+    width: 1140px;
+    height: 300px;
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
+    background-blend-mode: multiply;
+    /* padding-top: 60px;
+    padding-left: 64px; */
+}
+
+.call-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-right: 620px;
+
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: 1px none #F15B22;
+    border-radius: 5px;
+    width: 180px;
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 64px;
+}
+
+/* footer styles */
+.footer {
+    background-color: #151414;
+    display: flex;
+
+}
+
+.future {
+    margin-top: 130px;
+    margin-left: 230px;
+    color: #FFFFFF;
+    padding-bottom: 130px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    margin-right: 230px;
+    margin-bottom: 24px;
+}
+
+.future-email {
+    margin-bottom: 16px;
+
+}
+
+.future-phone {
+    margin-bottom: 32px;
+}
+
+.footer a {
+    padding-right: 18px;
+
+}
+
+.subscribe {
+    margin-right: 230px;
+    margin-top: 130px;
+    color: #FFFFFF;
+    margin-left: 230px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+#email-input {
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 20px;
 }
